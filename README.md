@@ -15,7 +15,8 @@ Atualmente, busco consolidar meus conhecimentos em **desenvolvimento Full Stack*
 ## 📄 Currículo
 - 🎓 Bacharelado em Engenharia de Software (em andamento)  
 - 💻 Foco em desenvolvimento Full Stack e boas práticas de programação  
-- 🔍 Interesse em pesquisa e inovação tecnológica  
+- 🔍 Interesse em pesquisa e inovação tecnológica
+- 📩 E-mail: lucassamuel.oe@gmail.com
 - 🌐 Idiomas:  
   - Inglês (intermediário)  
 
