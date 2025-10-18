@@ -76,3 +76,27 @@ Desenvolver uma carreira sólida como **desenvolvedor Full Stack** e pesquisador
 ---
 
 ✨ Este portfólio será constantemente atualizado para refletir meu progresso acadêmico, novos projetos e conquistas ao longo da minha jornada!
+
+---
+
+## 🧭 Boas práticas
+
+- **Branch principal:** `main`
+- **Branches de feature:** `feature/<descricao-curta>`
+- **Commits:** `tipo: mensagem` (ex.: `feat: adiciona contador.py`)
+- **Pull Requests:** sempre com descrição, checklist e revisão
+
+---
+
+## 🔗 Links
+
+- **GitHub:** [https://github.com/lucassamuelestudos-cmd](https://github.com/lucassamuelestudos-cmd)
+- **LinkedIn:** [https://www.linkedin.com/in/lucas-samuel-freitas-de-souza/](#)
+- **Página (GitHub Pages):** [https://lucassamuelestudos-cmd.github.io/portfolioHUB/](https://lucassamuelestudos-cmd.github.io/portfolioHUB/)
+
+---
+
+## ⚖️ Licença
+
+Licenciado sob a licença **MIT**.  
+Você é livre para usar, modificar e distribuir este conteúdo, desde que mantenha os créditos originais.
