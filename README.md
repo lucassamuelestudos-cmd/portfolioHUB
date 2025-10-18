@@ -9,6 +9,34 @@ Aqui você encontrará informações sobre meu perfil, experiências, aprendizad
 ## 👤 Perfil Pessoal
 Sou estudante de Engenharia de Software, com interesse nas áreas de **infraestrutura, banco de dados e desenvolvimento de software**.  
 Atualmente, busco consolidar meus conhecimentos em **desenvolvimento Full Stack** (Java, JavaScript, TypeScript, Node.js, Express, NoSQL, React, Hooks, Redux e Design Patterns), além de explorar **Data Science**.  
+---
+
+
+---
+
+## 🧩 Próximos Passos
+- Iniciar o versionamento do primeiro projeto acadêmico (`contador.py`);
+- Criar a página estática inicial no GitHub Pages;
+- Atualizar os status de cada projeto conforme o desenvolvimento.
+
+## 📂 Estrutura do Repositório
+
+
+Cada pasta contém um arquivo `README.md` com informações específicas sobre seu conteúdo.
+
+---
+
+## 🗓️ Planejamento dos Projetos
+
+A tabela abaixo descreve os projetos que compõem o portfólio, com status e objetivo de cada um.
+
+| Categoria | Projeto | Linguagem / Ferramenta | Status | Descrição |
+|------------|----------|------------------------|---------|------------|
+| Acadêmico | **Contagem Regressiva** | Python | 🔜 Em desenvolvimento | Programa simples que exibe a contagem regressiva até 0 |
+| Acadêmico | **Sistema de Biblioteca** | SQL / Diagrama DER | ⏳ Planejado | Modelagem de banco de dados e consultas |
+| Pessoal | **Site Portfólio** | HTML / CSS / GitHub Pages | 🔜 Em desenvolvimento | Página estática para apresentar meus projetos |
+| Pessoal | **Ferramentas CLI** | Python | ⏳ Planejado | Scripts utilitários executados via terminal |
+---
 
 ---
 
