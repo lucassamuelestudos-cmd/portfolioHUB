@@ -36,7 +36,6 @@ A tabela abaixo descreve os projetos que compõem o portfólio, com status e obj
 | Acadêmico | **Sistema de Biblioteca** | SQL / Diagrama DER | ⏳ Planejado | Modelagem de banco de dados e consultas |
 | Pessoal | **Site Portfólio** | HTML / CSS / GitHub Pages | 🔜 Em desenvolvimento | Página estática para apresentar meus projetos |
 | Pessoal | **Ferramentas CLI** | Python | ⏳ Planejado | Scripts utilitários executados via terminal |
----
 
 ---
 
