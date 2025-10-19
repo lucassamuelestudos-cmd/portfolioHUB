@@ -7,8 +7,3 @@ def contar_decrescente(n: int) -> list[int]:
 if __name__ == "__main__":
     valor = int(input("Digite um inteiro >= 0: "))
     print(contar_decrescente(valor))
-## Como testar manualmente
-
-```bash
-python contador.py
-# digite 5  -> saída esperada: 5 4 3 2 1 0
