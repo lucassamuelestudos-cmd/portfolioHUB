@@ -1,0 +1,24 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--link);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1), rgba(133, 114, 114, 0.05));
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin: 8px 8px 0 0;
+  transition: all 0.25s ease;
+  font-size: 15px;
+}
+
+a:hover {
+  color: var(--link-hover);
+  background: rgba(255,255,255,0.15);
+  border-color: var(--link-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+a:focus {
+  outline: 2px solid var(--link-hover);
+  outline-offset: 3px;
+}

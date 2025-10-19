@@ -1,0 +1,190 @@
+/* ============================
+   style.css — Portal de Estudos (versão vermelha personalizada)
+   ============================ */
+
+:root {
+  --vermelho: #9c0808;
+  --vermelho-escuro: #000000;
+  --claro: #fffffffa;
+  --texto: #ffffff;
+  --muted: #ffcccc;
+  --link: #ffd7d7;
+  --link-hover: #ffffff;
+  --radius: 12px;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.486);
+}
+
+/* ===== Reset e Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, var(--vermelho) 23%, var(--vermelho-escuro) 73%);
+  color: var(--texto);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+  color: var(--claro);
+  padding: 0;                 /* altura controlada pela .topbar */
+  border-bottom: 3px solid var(--claro);
+  box-shadow: var(--shadow);
+}
+
+/* ===== Barra do topo ===== */
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 72px;
+}
+
+/* ===== Marca (esquerda) ===== */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+.logo {            /* img da sua foto/logo */
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;          /* ajusta bem a foto */
+  box-shadow: var(--shadow);
+}
+
+.title {
+  font-size: 1.2rem;
+  color: var(--claro);
+}
+
+/* ===== Ícones (direita) ===== */
+header .topbar a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+/* empurra o primeiro <a> (GitHub) para a direita */
+header .topbar a.image:first-of-type { margin-left: auto; }
+
+header .topbar img {
+  height: 40px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,.3));
+  transition: transform .15s ease, opacity .15s ease;
+}
+header .topbar a:hover img { transform: translateY(-1px); opacity: .95; }
+
+/* ===== Main ===== */
+main {
+  flex: 1;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ===== Seções ===== */
+section {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius);
+  padding: 25px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+section h1 {
+  font-size: 1.8rem;
+  color: var(--claro);
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--claro);
+  padding-bottom: 5px;
+}
+
+section p {
+  color: var(--muted);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+/* ===== Links personalizados ===== */
+section a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--link);
+  background: linear-gradient(180deg, rgba(255,255,255,0.1), rgba(133, 114, 114, 0.05));
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin: 8px 8px 0 0;
+  transition: all 0.25s ease;
+  font-size: 20px;
+}
+
+section a:hover {
+  color: var(--link-hover);
+  background: rgba(255,255,255,0.15);
+  border-color: var(--link-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+section a:focus {
+  outline: 2px solid var(--link-hover);
+  outline-offset: 3px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: linear-gradient(90deg, var(--vermelho), var(--vermelho-escuro));
+  color: var(--claro);
+  text-align: center;
+  padding: 15px 0;
+  border-top: 3px solid var(--claro);
+  font-size: 0.95rem;
+  box-shadow: var(--shadow);
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 600px) {
+  main {
+    margin: 20px auto;
+    gap: 20px;
+  }
+  section {
+    padding: 18px;
+  }
+  section a {
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+  }
+}
